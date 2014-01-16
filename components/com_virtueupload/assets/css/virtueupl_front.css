@@ -1,0 +1,169 @@
+/**
+ *	com_virtueupload - Upload for Joomla & VirtueMart
+ *  Copyright (C) 2009 Matthijs Alles - Bixie
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+table#sc_form td {
+	padding: 3px;
+}
+
+div#virtueupl {
+	display: block;
+	overflow: hidden; /* beez */	
+}
+
+div#virtueupl .buttons{
+	float: right; 
+}
+div#virtueupl .buttons img { 
+	border: none;
+}
+
+div#virtueupl .buttons a {
+	padding: 0 0 0 5px; height: 16px; line-height: 16px;
+}
+
+div#virtueupl h2 {
+	font-size: 1.2em; font-weight: bold;
+}
+
+div#virtueupl dl {
+	margin: 0 5px;
+	margin-bottom: 15px;
+}
+
+div#virtueupl dt {
+	/* margin-right: 5px; */
+	padding: 0.3em 0;
+	float:left;
+	font-size: 1em;
+	font-style: italic;
+	width: 13em;
+	background: transparent;
+	border-bottom: 1px solid #ddd;
+}
+
+div#virtueupl dd {
+	display: block;
+	margin: 0 0 5px 13.5em;
+	padding: 0.3em 0;
+	font-size: 1em;
+	background: transparent;
+	z-index: 10;
+}
+
+div#virtueupl table {
+	border-collapse: collapse; 
+}
+
+div#virtueupl table.sc_search {
+	margin: 1px;
+	font-size: 0.9em;
+}
+
+div#virtueupl td.sc_header {
+	border-bottom: 1px solid black;
+	margin-bottom: 2px;
+}
+
+div#virtueupl td.sc_rows {
+	border-bottom: 1px dotted lightgrey;
+}
+
+div#virtueupl button.sc_search {
+	font-size: 0.9em;
+	margin: 0.9em 0;	
+}
+
+div .sc-footer {
+	font-size: 0.9em;
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #aaa;
+}
+
+div#virtueupl .map_icon {
+	float: right;
+	clear: right;
+}
+
+div#virtueupl .unpublished {
+	color: red;
+}
+
+div#gmap_buttons {
+	margin: 5px;
+	padding-top: 10px;
+}
+
+div#gmap_buttons .save {
+	border: 1px solid lightgrey;
+	padding: 5px;
+}
+
+div#gmap_buttons .save:hover {
+	background-color: #ffee00;
+	cursor: pointer;
+}
+
+
+div#entryinfo {
+	margin: 0 10px;
+}
+
+span.gmaplink {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* malles toevoegingen */
+.right {
+float:right;
+}
+.scrolldiv {
+overflow:auto;
+padding: 3px 3px 3px 3px;
+border: 1px solid black;
+}
+.mouse:hover {
+cursor: pointer;
+}
+
+input.readonly {
+background-color:#D3D3D3 ;
+border: none;
+}
+input.vu_status {
+border: none;
+background: none;
+cursor: text;
+}
+#status {
+float: left;
+width: 258px;
+height: 30px;
+}
+#spinner {
+display: none;
+border: none;
+position: relative;
+top: 13px;
+float: left;
+width: 16px;
+height: 16px;
+}
+
