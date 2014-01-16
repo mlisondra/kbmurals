@@ -1,0 +1,139 @@
+.breadcrumb-container {
+	position:relative;	
+}
+
+.breadcrumbs {
+	line-height: 60px;
+	color: #c2c2c2;
+	font-size: 18px;
+}
+
+.breadcrumbs a {
+	color: #c2c2c2;
+}
+
+.breadcrumbs a:hover {
+	color: #1f1d1e !important;
+}
+
+.breadcrumbs img {
+	width: 11px;
+	height: 18px;
+	margin: 0 5px;
+	display: inline-block;
+	vertical-align: sub;
+}
+
+.breadcrumbs span {
+	color: #a11d21;
+}
+
+.categories-list h1 {
+	font-size:18px;
+}
+.categories-list ul {
+	list-style-type:none;
+}
+
+.f_col .parent a {
+	margin-bottom: 0;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: bold;
+	cursor: default;
+	text-decoration: none;
+}
+
+.f_col li li a {
+	font-size: 12px !important;
+	font-weight: normal !important;
+}
+
+.f_col li li a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+label.error {
+	color:red;
+	display:block;
+	margin-top:5px;
+}
+
+input.addtocart-button:hover {
+	cursor: pointer;
+	background-position: 0 -40px;
+	text-decoration: none;
+}
+
+input.addtocart-button.red {background-color: #ad2226;}
+
+.crop_button_container {
+	float: left;
+}	
+
+.continue_link,
+.cancel-button,
+.crop_button {
+	height: 29px;
+	display: inline-block;
+	position: relative;
+	padding: 5px 10px;
+	margin: 0px 2px 0px 2px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border: 1px solid #c2c2c2;
+	background-image: url(images/cta_overlay.png);
+	background-position: 0 top;
+	background-repeat: repeat-x;
+	background-color: #c0c0c0;
+	font-size: 14px;
+	font-weight: bold;
+	color: white !important;
+	cursor: pointer;
+	text-shadow: 1px 1px 5px #707070;
+}
+
+.continue_link {
+	height: 20px !important;
+}
+
+.continue_link:hover,
+.cancel-button:hover,
+.crop_button:hover {
+	background-position: 0 -27px;
+	color:#f2f2f2 !important;
+}
+
+.button {
+	height: 29px;
+	display: inline-block;
+	position: relative;
+	width: auto;
+	padding: 5px 10px;
+	margin: 0px 2px 0px 2px;
+	border-radius: 5px;
+	border: solid #F19E55 1px;
+	background-image: url(images/cta_overlay.png);
+	background-position: 0 top;
+	background-repeat: repeat-x;
+	background-color: #eb760f;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	text-shadow: 1px 1px 5px #ce5900;
+}
+
+.button:hover {
+	background-position: 0 -27px !important;
+	color:#f2f2f2 !important;
+	background-image: url(images/cta_overlay.png) !important;
+	background-color: #eb760f !important;
+}
+
+#pagination ul li {
+	display:inline;
+}
+

@@ -1,0 +1,100 @@
+.breadcrumbs {
+	height: 60px;
+	line-height: 60px;
+	color: #c2c2c2;
+	font-size: 18px;
+}
+
+.breadcrumbs i {
+	display: inline-block;
+	width: 11px;
+	height: 18px;
+	margin: 0 5px;
+	vertical-align: sub;
+	background: url(images/breadcrumb_arrow.gif) 0 center no-repeat;
+}
+
+.categories-list h1 {
+	font-size:18px;
+}
+.categories-list ul {
+	list-style-type:none;
+}
+
+.f_col .parent a {
+	margin-bottom: 0;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: bold;
+	cursor: default;
+	text-decoration: none;
+}
+
+.f_col li li a {
+	font-size: 12px !important;
+	font-weight: normal !important;
+}
+
+.f_col li li a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+label.error {
+	color:red;
+	display:block;
+	margin-top:5px;
+}
+
+input.addtocart-button {
+	display: inline-block;
+	position: relative;
+	width: auto;
+	height: auto;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #c2c2c2;
+	background-image: url(images/cta_overlay.png);
+	background-position: 0 top;
+	background-repeat: repeat-x;
+	background-color: #c0c0c0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+input.addtocart-button:hover {
+	cursor: pointer;
+	background-position: 0 -40px;
+	text-decoration: none;
+}
+
+input.addtocart-button.red {background-color: #ad2226;}
+
+.continue_link span {
+	display: inline-block;
+	position: relative;
+	width: auto;
+	height: auto;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #c2c2c2;
+	background-image: url(images/cta_overlay.png);
+	background-position: 0 top;
+	background-repeat: repeat-x;
+	background-color: #c0c0c0;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
+.continue_link span:hover {
+	cursor: pointer;
+	background-position: 0 -40px;
+	text-decoration: none;
+}
+
+#pagination ul li {
+	display:inline;
+}
+

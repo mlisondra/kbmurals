@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>KB Murals</name>
+	<creationDate>2012-07-01</creationDate>
+	<author>KB Murals</author>
+	<authorEmail>alphonso.iniguez@sbcglobal.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>KB Murals 2013</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>KB Murals</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>KBHomeHeader</position>
+		<position>KBFooter</position>
+		<position>KBFooterCol1</position>
+		<position>KBFooterCol2</position>
+		<position>KBFooterCol3</position>
+		<position>KBFooterCol4</position>
+		<position>KBHomepageLeft</position>
+		<position>KBHomepageRight</position>
+		<position>KBBreadcrumb</position>
+		<position>KBTopNav</position>
+		<position>KBFeaturedProducts</position>
+		<position>KBMainContent</position>
+	</positions>
+</extension>
