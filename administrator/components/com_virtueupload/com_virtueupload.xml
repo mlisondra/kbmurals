@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<extension  type="component" version="1.5.0" client="site" method="upgrade">
+	<name>virtueupload</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>Jan 2012</creationDate>
+	<author>Kevin Ye</author>
+	<authorEmail>joomvm@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlavm.com</authorUrl>
+	<copyright>(c)2009 All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<!--  The version string is recorded in the components table -->
+	<version>2.7</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Welcome to VMUpload, Please check the update in www.Joomlavm.com</description>
+
+
+ <scriptfile>install.virtueupload.php</scriptfile>
+
+
+	<!-- installs and executes SQL scripts -->
+	<install>
+		<sql folder="admin">
+			<file driver="mysql" charset="utf8">install.virtueupload.utf8.sql</file>
+			<file driver="mysql">install.virtueupload.nonutf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql folder="admin">
+			<file driver="mysql" charset="utf8">uninstall.virtueupload.utf8.sql</file>
+			<file driver="mysql">uninstall.virtueupload.nonutf8.sql</file>
+		</sql>
+	</uninstall>
+
+	<!-- installs frontend (component) files -->
+	<files folder="component">
+		<filename>index.html</filename>
+		<filename>virtueupload.php</filename>
+		<filename>controller.php</filename>
+		<folder>models</folder>
+		<folder>assets</folder>
+		<folder>views</folder>		
+	</files>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_virtueupload/assets/images/logo_16.png">VMUpload2.7</menu>
+		<!-- Administration Main File Copy Section -->
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>admin.virtueupload.php</filename>
+			<filename>controller.php</filename>
+			<!-- installation script -->
+			<!-- database script -->
+			<filename>install.virtueupload.utf8.sql</filename>
+			<filename>install.virtueupload.nonutf8.sql</filename>
+			<filename>uninstall.virtueupload.utf8.sql</filename>
+			<filename>uninstall.virtueupload.nonutf8.sql</filename>
+			<!-- install controllers -->
+			<folder>controllers</folder>
+			<!-- install models  -->
+			<folder>models</folder>
+			<!-- install helper files  -->
+			<folder>assets</folder>
+			<!-- install views -->
+			<folder>views</folder>
+			<!-- install table definitions-->
+			<folder>tables</folder>
+			<!-- install classes and overrides -->
+			<folder>classes</folder>
+			<!--add by ym for language-->
+            <folder>language</folder>
+
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_virtueupload.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_virtueupload.sys.ini</language>
+       </languages>
+
+
+	</administration>
+
+
+</extension>
+
+
