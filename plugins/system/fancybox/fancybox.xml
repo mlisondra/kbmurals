@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system" method="upgrade">
+	<name>System - Fancybox</name>
+	<author>Yireo</author>
+	<creationDate>October 2011</creationDate>
+	<copyright>Copyright (C) 2011 Yireo.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@yireo.com</authorEmail>
+	<authorUrl>www.yireo.com</authorUrl>
+	<version>1.2.4</version>
+	<description>http://fancybox.net/</description>
+
+	<files>
+		<filename plugin="fancybox">fancybox.php</filename>
+		<folder>fields</folder>
+	</files>
+
+	<media destination="plg_fancybox">
+	    <folder>css</folder>
+	    <folder>images</folder>
+	    <folder>js</folder>
+	</media>
+
+    <config>
+	    <fields name="params">
+            <fieldset name="basic">
+        		<field name="elements" type="textarea" default="" cols="30" rows="10" label="HTML elements" description="" />
+		        <field name="hide_on_click" type="radio" default="0" label="Hide on click" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="enable_mousewheel" type="radio" default="0" label="Enable mousewheel" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="transition" type="list" default="0" label="Transition" description="">
+        			<option value="">None</option>
+		        	<option value="swing">Swing</option>
+        			<option value="linear">Linear</option>
+		        	<option value="elastic">Elastic</option>
+        			<option value="quad">Quad</option>
+			        <option value="cubic">Cubic</option>
+        			<option value="quart">Quart</option>
+		        	<option value="quint">Quint</option>
+        			<option value="sine">Sine</option>
+        			<option value="expo">Expo</option>
+		        	<option value="circ">Circ</option>
+        			<option value="bounce">Bounce</option>
+		        	<option value="back">Back</option>
+        		</field>
+		        <field name="speed" type="list" default="200" label="Speed" description="">
+        			<option value="50">50</option>
+		        	<option value="100">100</option>
+        			<option value="150">150</option>
+		        	<option value="200">200</option>
+        			<option value="250">250</option>
+		        	<option value="300">300</option>
+        			<option value="350">350</option>
+		        	<option value="400">400</option>
+        			<option value="450">450</option>
+		        	<option value="500">500</option>
+        			<option value="600">600</option>
+		        	<option value="700">700</option>
+        			<option value="800">800</option>
+		        	<option value="900">900</option>
+        			<option value="1000">1000</option>
+		        </field>
+        	</fieldset>
+        	<fieldset name="advanced" addfieldpath="/plugins/system/fancybox/fields">
+		        <field name="use_google_api" type="radio" default="0" label="Use Google API" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="load_css" type="radio" default="1" label="Load CSS" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="load_jquery" type="radio" default="1" label="Load jQuery" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="load_fancybox" type="radio" default="1" label="Load Fancybox" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="load_mousewheel" type="radio" default="1" label="Load Mousewheel" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="load_easing" type="radio" default="1" label="Load Easing" description="">
+        			<option value="0">No</option>
+		        	<option value="1">Yes</option>
+        		</field>
+		        <field name="exclude_components" type="components" label="Exclude components" />
+        		<field name="namespace" type="text" default="" label="jQuery Namespace" description="" />
+		        <field name="content_type" type="list" default="" label="Content-type" description="">
+        			<option value="">auto</option>
+		        	<option value="image">image</option>
+        			<option value="ajax">ajax</option>
+		        	<option value="iframe">iframe</option>
+        			<option value="swf">swf</option>
+		        	<option value="inline">inline</option>
+        		</field>
+	        </fieldset>
+        </fields>
+    </config>
+	<updateservers>
+		<server type="extension" priority="1" name="Fancybox">http://www.yireo.com/documents/plg_fancybox.xml</server>
+	</updateservers>
+</extension>
